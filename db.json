@@ -1,9 +1,57 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "columns": [
+    {
+      "id": 1,
+      "name": "To do"
+    },
+    {
+      "id": 2,
+      "name": "Doing"
+    },
+    {
+      "id": 3,
+      "name": "Done"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Financeiro",
+      "color": "#3bf73b"
+    },
+    {
+      "id": 2,
+      "name": "Estudos",
+      "color": "#1763de"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Pagar contas fixas",
+      "description": "Realizar o pagamento das contas fixas do mês(Água, luz, telefone, etc.)",
+      "dtForecast": "2023-06-12",
+      "order": 1,
+      "columnId": 2,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Pagar contas variáveis, contas fixas e organizar finanlas",
+      "description": "Pagamento de contas variáveis como Mercado, cabeleireiro, etc.",
+      "dtForecast": "2023-06-15",
+      "order": 1,
+      "columnId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "title": "Estudar para prova de Angular",
+      "description": "",
+      "dtForecast": "2023-06-12",
+      "order": 2,
+      "columnId": 1,
+      "categoryId": 2
+    }
+  ]
 }
